@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://kykagroup.com/wp-content/uploads/2023/07/IMG-Worlds-of-Adventure.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h3 {
+    color: aliceblue;
+    font-size: 32px;
+    background-color: black;
+}
+
+span {
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+p {
+    color: aliceblue;
+    font-size: 32px;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

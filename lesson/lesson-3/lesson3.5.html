@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            height: 100vh;
+        }
+
+        #section-home {
+            background-color: pink;
+        }
+
+        #section-about {
+            background-color: yellow;
+        }
+
+        #section-info {
+            background-color: lightblue;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        nav ul a {
+            color: forestgreen;
+        }
+	</style>
+</head>
+<body>
+<section id="section-home">
+	<nav>
+		<ul>
+			<li><a href="#section-home">Home</a></li>
+			<li><a href="#section-about">About</a></li>
+			<li><a href="#section-info">Info</a></li>
+		</ul>
+	</nav>
+</section>
+<section id="section-about"></section>
+<section id="section-info">
+	<a href="#section-home">TOP</a>
+</section>
+</body>
+</html>

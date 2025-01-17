@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		body{
+			height: 100vh;
+		}
+		.wrapper {
+            display: flex;
+            justify-content: space-around;
+			align-items: center;
+			height: 100%;
+        }
+        .item {
+            width: 250px;
+            height: 250px;
+            background: rgb(4, 178, 232);
+            background: linear-gradient(90deg, rgba(4, 178, 232, 1) 29%, rgba(49, 208, 161, 1) 92%);
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.33);
+	        border-radius: 35%;
+	        border: 1px solid rgba(255, 255, 255, 0.3);
+	        transition: 0.5s;
+	        display: flex;
+	        align-items: center;
+	        justify-content: center;
+        }
+        .item a{
+	        text-decoration: none;
+	        color: white;
+        }
+
+        .item:hover {
+	        border-radius: 0;
+	        border: 3px solid orange;
+	        transition: all 1s;
+	        width: 400px;
+	        height: 350px;
+        }
+        .item:hover a{
+	        font-size: 30px;
+	        color: aquamarine;
+        }
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<div class="item">
+		<a href="#">link</a>
+	</div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+	<div class="item"></div>
+</div>
+</body>
+</html>
