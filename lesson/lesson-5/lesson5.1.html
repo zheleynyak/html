@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style>
+		.pink-box {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			margin: 100px auto 0 auto;
+			animation: pink 3s linear infinite alternate;
+		}
+		@keyframes pink {
+			0% {
+                transform: scale(1.5);
+				/*rotate: 360deg;*/
+            }
+			100% {
+				transform: scale(1);
+				background-color: yellow;
+            }
+		}
+	</style>
+</head>
+<body>
+<div class="pink-box"></div>
+</body>
+</html>
